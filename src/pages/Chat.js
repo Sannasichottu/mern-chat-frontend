@@ -6,7 +6,8 @@ import MessageForm from "../components/MessageForm";
 
 
 function Chat() {
-  return <Container>
+  return (
+  <Container>
     <Row>
       <Col md={4}>
         <Sidebar />
@@ -16,7 +17,7 @@ function Chat() {
       </Col>
     </Row>
   </Container>
-
+);
 }
 
 export default Chat
