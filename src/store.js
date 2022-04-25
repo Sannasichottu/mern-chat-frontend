@@ -9,8 +9,8 @@ import storage from "redux-persist/lib/storage";
 import { combineReducers  } from 'redux';
 import { persistReducer } from "redux-persist";
 import thunk from "redux-thunk";
-import { use } from '../../mern-chat-backend/routes/userRoutes';
-import persistStore from "redux-persist/es/persistStore";
+//import { use } from '../../mern-chat-backend/routes/userRoutes';
+// import persistStore from "redux-persist/es/persistStore";
 
 //reducers
 const reducer = combineReducers({
